@@ -3,6 +3,7 @@ package org.example;
 import org.example.geometry.Circle;
 import org.example.geometry.ColoredCircle;
 import org.example.geometry.Point;
+import org.example.geometry.Rectangle;
 
 public class Main {
     public static void main(String[] args) {
@@ -30,5 +31,8 @@ public class Main {
                 System.out.println(tab[i].calculateArea());
             }
         }
+
+        Rectangle rectangle = new Rectangle(2,5);
+        System.out.println(rectangle);
     }
 }
