@@ -1,9 +1,6 @@
 package org.example;
 
-import org.example.geometry.Circle;
-import org.example.geometry.ColoredCircle;
-import org.example.geometry.Point;
-import org.example.geometry.Rectangle;
+import org.example.geometry.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -34,5 +31,8 @@ public class Main {
 
         Rectangle rectangle = new Rectangle(2,5);
         System.out.println(rectangle);
+
+        Square square = new Square(1,2,3);
+        System.out.println(square);
     }
 }
