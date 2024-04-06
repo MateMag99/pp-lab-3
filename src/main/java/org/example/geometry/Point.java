@@ -1,4 +1,4 @@
-package org.example;
+package org.example.geometry;
 
 public class Point {
     private double x;
